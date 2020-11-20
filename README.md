@@ -11,4 +11,4 @@ s(i) = exp(z(i)) / (exp(z(0)) + exp(z(2)) + ... + exp(z(N-1))), где i = 0, 1,
 Производная softmax:
 jacobian_m(i, j) = s(j)(k(i, j) - s(i)), где jacobian_m(i, j) - двухмерная матрица;  
 k(i, j) = { 1, i = j  
-&emsp;&emsp;&ensp{ 0, иначе
+&emsp;&emsp;&ensp;{ 0, иначе
